@@ -180,5 +180,3 @@ To report bugs and request features of software, please contact me for questions
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="#"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
 </div>
-
-# Car-License-Plate-Recognition2
