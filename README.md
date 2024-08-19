@@ -62,14 +62,16 @@ In which, X(0,1,2,...9) is a number and Y(A,B,C,...Z) is a letter
 
 **Results of car identification with Yolov8**
 
-<img src="https://github.com/user-attachments/assets/67acfcbc-3226-4015-8269-cb08ea99d3ea" width="805" height="450">
+<img src="https://github.com/user-attachments/assets/67acfcbc-3226-4015-8269-cb08ea99d3ea" width="805">
 
 <!-- ![image](https://github.com/user-attachments/assets/67acfcbc-3226-4015-8269-cb08ea99d3ea) -->
 
 
 **Results of vehicle license plate recognition with Yolov8**
 
-![image](https://github.com/user-attachments/assets/8301ae54-50da-4d87-a6dc-b61198b6f9fa)
+<img src="https://github.com/user-attachments/assets/8301ae54-50da-4d87-a6dc-b61198b6f9fa" width="805">
+
+<!-- ![image](https://github.com/user-attachments/assets/8301ae54-50da-4d87-a6dc-b61198b6f9fa) -->
 
 
 **Handling one-line format license plates**
