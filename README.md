@@ -48,6 +48,11 @@ Divide license plates into two types and what they have in common is that they a
 
 In which, X is a number(0,1,2,...9) and Y is a letter(A,B,C,...Z)
 
+   |  STT  | Type of plate |  Image |  |
+   |-------|-----------------|-----------------|---------------|
+   |   1   |   License plate is on one line  |<img src="https://github.com/user-attachments/assets/2a10fe7f-ec5c-4287-a605-ddc2b4e4230b" width="105" height="50">|  **1020** Images  |
+   |   2   |   License plate is located on two lines  |<img src="https://github.com/user-attachments/assets/a612001b-1dc3-4016-817a-5c8dab9b8986" width="105" height="50">|  **1020** Images  |
+
 
    |  STT  | Type of plate |  Image |  |
    |-------|-----------------|-----------------|---------------|
