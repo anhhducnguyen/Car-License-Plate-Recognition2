@@ -35,7 +35,9 @@ Preprocessing:
   <img src="https://github.com/user-attachments/assets/af0e7ae0-63f8-444e-8028-64ed8b1b381d" width="400" height="250">
 </p>
 
-![image](https://github.com/user-attachments/assets/2ea74a29-5054-44d9-b537-8576677c2283)
+<img src="https://github.com/user-attachments/assets/2ea74a29-5054-44d9-b537-8576677c2283" width="400" height="250">
+
+<!-- ![image](https://github.com/user-attachments/assets/2ea74a29-5054-44d9-b537-8576677c2283) -->
 
 
 ## Implement license plate classification in Vietnam
