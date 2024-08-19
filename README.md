@@ -49,10 +49,10 @@ Divide license plates into two types and what they have in common is that they a
 In which, X(0,1,2,...9) is a number and Y(A,B,C,...Z) is a letter
 
 
-   | Type of plate |  Image |  |
-   |-----------------|-----------------|---------------|
-   |   License plate is on one line  |    ![image](https://github.com/user-attachments/assets/2a10fe7f-ec5c-4287-a605-ddc2b4e4230b)|  **1020** Images  |
-   |   License plate is located on two lines  |    ![image](https://github.com/user-attachments/assets/a612001b-1dc3-4016-817a-5c8dab9b8986)|  **1020** Images  |
+   |  STT  | Type of plate |  Image |  |
+   |-------|-----------------|-----------------|---------------|
+   |   1   |   License plate is on one line  |    ![image](https://github.com/user-attachments/assets/2a10fe7f-ec5c-4287-a605-ddc2b4e4230b)|  **1020** Images  |
+   |   2   |   License plate is located on two lines  |    ![image](https://github.com/user-attachments/assets/a612001b-1dc3-4016-817a-5c8dab9b8986)|  **1020** Images  |
 
 
 ## Results achieved when formatting Vietnamese license plates
