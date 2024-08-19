@@ -62,7 +62,9 @@ In which, X(0,1,2,...9) is a number and Y(A,B,C,...Z) is a letter
 
 **Results of car identification with Yolov8**
 
-![image](https://github.com/user-attachments/assets/67acfcbc-3226-4015-8269-cb08ea99d3ea)
+<img src="https://github.com/user-attachments/assets/67acfcbc-3226-4015-8269-cb08ea99d3ea" width="805" height="450">
+
+<!-- ![image](https://github.com/user-attachments/assets/67acfcbc-3226-4015-8269-cb08ea99d3ea) -->
 
 
 **Results of vehicle license plate recognition with Yolov8**
