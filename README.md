@@ -113,7 +113,7 @@ Before you begin, ensure you have the following software installed:
 
 3. Sort: The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort)
 
-4. Nếu bb_test hoặc bb_gt trống, trả về một mảng rỗng
+4. In `sort/sort.py` , if bb_test or bb_gt is empty, return an empty array
 
 ```python
 if bb_test.size == 0 or bb_gt.size == 0:
