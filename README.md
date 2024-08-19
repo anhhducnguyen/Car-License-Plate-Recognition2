@@ -71,31 +71,31 @@ In which, X(0,1,2,...9) is a number and Y(A,B,C,...Z) is a letter
 **Handling one-line format license plates**
 
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/4ede80a1-2b69-428c-9105-46941b801ada" width="250" height="200">
-  <img src="https://github.com/user-attachments/assets/fae0d644-65b9-4c2e-8e8c-e0482b10feca" width="250" height="200">
-  <img src="https://github.com/user-attachments/assets/98dd461f-67bb-4806-b8d3-3a54ac42b881" width="250" height="200">
+  <img src="https://github.com/user-attachments/assets/4ede80a1-2b69-428c-9105-46941b801ada" width="250" height="170">
+  <img src="https://github.com/user-attachments/assets/fae0d644-65b9-4c2e-8e8c-e0482b10feca" width="250" height="170">
+  <img src="https://github.com/user-attachments/assets/98dd461f-67bb-4806-b8d3-3a54ac42b881" width="250" height="170">
 </p>
 
 **Handling two-line format license plates**
 
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/bc0f9075-59f5-4612-9f95-5e2f48478984" width="250" height="200">
-  <img src="https://github.com/user-attachments/assets/45ae0a83-9919-420e-897e-1f631028de19" width="250" height="200">
-  <img src="https://github.com/user-attachments/assets/c2298c08-c59b-4492-9435-f8a4e67975d8" width="250" height="200">
+  <img src="https://github.com/user-attachments/assets/bc0f9075-59f5-4612-9f95-5e2f48478984" width="250" height="170">
+  <img src="https://github.com/user-attachments/assets/45ae0a83-9919-420e-897e-1f631028de19" width="250" height="170">
+  <img src="https://github.com/user-attachments/assets/c2298c08-c59b-4492-9435-f8a4e67975d8" width="250" height="170">
 </p>
 
 **For license plates with a yellow background, the license plate cannot be processed until the final step only leaves a black color. This is really bad, it makes reading the license plate unsuccessful**
 
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/1e4bc0ac-0e48-4dac-81db-dc9fcf29b788" width="250" height="200">
-  <img src="https://github.com/user-attachments/assets/c1ab4cfe-0623-4442-a735-ca1e039b914d" width="250" height="200">
-  <img src="https://github.com/user-attachments/assets/161b2a2b-b0b5-4613-bea7-6b70a4b0ad9e" width="250" height="200">
+  <img src="https://github.com/user-attachments/assets/1e4bc0ac-0e48-4dac-81db-dc9fcf29b788" width="250" height="170">
+  <img src="https://github.com/user-attachments/assets/c1ab4cfe-0623-4442-a735-ca1e039b914d" width="250" height="170">
+  <img src="https://github.com/user-attachments/assets/161b2a2b-b0b5-4613-bea7-6b70a4b0ad9e" width="250" height="170">
 </p>
 
 **In low light or too strong light, the license plate will appear as shown**
 
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/e6f1385b-8977-4fce-a039-8df50e68ae04" width="250" height="200">
+  <img src="https://github.com/user-attachments/assets/e6f1385b-8977-4fce-a039-8df50e68ae04" width="250" height="170">
 </p>
 
 
