@@ -6,9 +6,9 @@ from sort.sort import *
 from util import get_car, read_license_plate, write_csv
 
 folders = [
-        'license_plate_crop', 
-        'license_plate_crop_gray', 
-        'license_plate_crop_thresh'
+        'data/license_plate_crop', 
+        'data/license_plate_crop_gray', 
+        'data/license_plate_crop_thresh'
     ]
 
 for folder in folders:
@@ -23,7 +23,7 @@ coco_model = YOLO('./models/yolov8n.pt')
 license_plate_detector = YOLO('./models/license_plate_detector.pt')
 
 # load video
-cap = cv2.VideoCapture('./sample.mp4')
+cap = cv2.VideoCapture('./video/sample.mp4')
 
 vehicles = [2, 3, 5, 7]
 
@@ -59,7 +59,7 @@ while ret:
 
                 # crop license plate
                 license_plate_crop = frame[int(y1):int(y2), int(x1): int(x2), :]
-                # crop_image_path = f'license_plate_crop/frame_{frame_nmr}_car_{car_id}_plate.jpg'
+                crop_image_path = f'data/license_plate_crop/frame_{frame_nmr}_car_{car_id}_plate.jpg'
                 # cv2.imwrite(crop_image_path, license_plate_crop)
 
 
@@ -67,10 +67,10 @@ while ret:
                 license_plate_crop_gray = cv2.cvtColor(license_plate_crop, cv2.COLOR_BGR2GRAY)
                 _,license_plate_crop_thresh = cv2.threshold(license_plate_crop_gray, 64, 255, cv2.THRESH_BINARY_INV)
 
-                crop_image_path = f'license_plate_crop_gray/frame_{frame_nmr}_car_{car_id}_plate.jpg'
+                crop_image_path = f'data/license_plate_crop_gray/frame_{frame_nmr}_car_{car_id}_plate.jpg'
                 # cv2.imwrite(crop_image_path, license_plate_crop_gray)
 
-                crop_image_path = f'license_plate_crop_thresh/frame_{frame_nmr}_car_{car_id}_plate.jpg'
+                crop_image_path = f'data/license_plate_crop_thresh/frame_{frame_nmr}_car_{car_id}_plate.jpg'
                 # cv2.imwrite(crop_image_path, license_plate_crop_thresh)
 
 
@@ -85,4 +85,4 @@ while ret:
                                                                     'text_score': license_plate_text_score}}
 
 # write results
-write_csv(results, './test.csv')
+write_csv(results, 'data/test.csv')

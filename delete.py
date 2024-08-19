@@ -2,14 +2,14 @@ import shutil
 import os
 
 directories = [
-    'license_plate_crop', 
-    'license_plate_crop_gray', 
-    'license_plate_crop_thresh'
+    'data/license_plate_crop', 
+    'data/license_plate_crop_gray', 
+    'data/license_plate_crop_thresh'
     ]
 
 for directory in directories:
     if os.path.exists(directory) and os.path.isdir(directory):
         shutil.rmtree(directory)
-        print(f"Đã xóa thư mục: {directory}")
+        print(f"Da xoa thanh cong: {directory}")
     else:
-        print(f"Thư mục {directory} không tồn tại hoặc không phải là thư mục.")
+        print(f"Thu muc {directory} khong ton tai hoac khong phai thu muc")
