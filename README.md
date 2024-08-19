@@ -49,7 +49,7 @@ Divide license plates into two types and what they have in common is that they a
 In which, X(0,1,2,...9) is a number and Y(A,B,C,...Z) is a letter
 
 
-   | Type of plate |  VALID SET (8%) | TEST SET (4%) |
+   | Type of plate |  Image |  |
    |-----------------|-----------------|---------------|
    |   License plate is on one line  |    **2048** Images  |  **1020** Images  |
    |   License plate is located on two lines  |    **2048** Images  |  **1020** Images  |
