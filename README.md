@@ -52,7 +52,6 @@ In which, X(0,1,2,...9) is a number and Y(A,B,C,...Z) is a letter
    | Type of plate |  VALID SET (8%) | TEST SET (4%) |
    |-----------------|-----------------|---------------|
    |   License plate is on one line  |    **2048** Images  |  **1020** Images  |
-   |-----------------|-----------------|---------------|
    |   License plate is located on two lines  |    **2048** Images  |  **1020** Images  |
 
 
