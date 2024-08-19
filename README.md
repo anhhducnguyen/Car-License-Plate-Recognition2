@@ -46,7 +46,7 @@ Preprocessing:
 
 Divide license plates into two types and what they have in common is that they all have 8 characters formatted as follows:
 
-In which, X is a number(0,1,2,...9) and Y is a letter(A,B,C,...Z)
+In which, `X` is a number(0,1,2,...9) and `Y` is a letter(A,B,C,...Z)
 
    |  STT  | Type of plate |  Image |  |
    |-------|-----------------|-----------------|---------------|
