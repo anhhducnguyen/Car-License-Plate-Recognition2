@@ -3,13 +3,6 @@
 
 License plate recognition technology is very useful in many fields. In parking lot management, this system automatically recognizes and records vehicle license plates, making management easier and less arduous. At automatic toll stations, this technology allows vehicles to pass through the station without stopping, reducing traffic congestion. In security and surveillance, license plates assist in tracking suspect vehicles, assisting in criminal investigations and searching for stolen vehicles...
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=ul1J0IiHU-k">
-    <img width="600" src="https://github.com/user-attachments/assets/80a04961-84c5-428d-bf0e-d36d53031ef5" alt="Watch the video">
-    </br>Watch on YouTube: Automatic number plate recognition with Python, Yolov8 and EasyOCR !
-</a>
-</p>
-
 ## Training Process and Data
 
 A `Yolov8` pretrained model was used to detect vehicles.
