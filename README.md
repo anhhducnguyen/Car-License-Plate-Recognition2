@@ -3,6 +3,65 @@
 
 License plate recognition technology is very useful in many fields. In parking lot management, this system automatically recognizes and records vehicle license plates, making management easier and less arduous. At automatic toll stations, this technology allows vehicles to pass through the station without stopping, reducing traffic congestion. In security and surveillance, license plates assist in tracking suspect vehicles, assisting in criminal investigations and searching for stolen vehicles...
 
+
+## Car-License-Plate-Recognition Installation Instructions
+
+### Prerequisites
+Before you begin, ensure you have the following software installed:
+
+1. [Python version 3.12](https://www.python.org/)
+   - Workload: `Python`
+     
+2. Library: ultralytics, pandas, opencv-python, numpy, scipy, easyocr, filterpy
+
+3. Sort: The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort)
+
+4. In `sort/sort.py` , if bb_test or bb_gt is empty, return an empty array
+
+```python
+if bb_test.size == 0 or bb_gt.size == 0:
+    return np.zeros((bb_test.shape[0], bb_gt.shape[0]))
+```
+
+### Step-by-Step Installation Guide
+
+**Step 1.** Clone the Repository
+
+   First, clone the repository containing the application source code.
+
+   ```bash
+   git clone github.com/anhhducnguyen/Car-License-Plate-Recognition
+   ```
+
+**Step 2.** Install the necessary libraries in `requirements.txt`
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+**Step 3.** Download Yolov8 model at [yolov8n]() and license plate recognition model at [license plate detector](), then move it to the `models` folder in the project
+
+**Step 4.** Download the video I used for testing at [sample video](), then transfer it to the project
+
+
+**Step 5.** Run program `main.py`
+
+ ```bash
+ python main.py 
+ ```
+
+**Step 6.** Run program `add_missing_data.py`
+
+ ```bash
+ python add_missing_data.py 
+ ```
+
+**Step 7.** Run program `visualize.py`
+
+ ```bash
+ python visualize.py 
+ ```
+
 ## Training Process and Data
 
 A `Yolov8` pretrained model was used to detect vehicles.
@@ -93,67 +152,6 @@ In which, `X` is a number(0,1,2,...9) and `Y` is a letter(A,B,C,...Z)
 <p align="left">
   <img src="https://github.com/user-attachments/assets/e6f1385b-8977-4fce-a039-8df50e68ae04" width="250" height="170">
 </p>
-
-
-
-
-## Car-License-Plate-Recognition Installation Instructions
-
-### Prerequisites
-Before you begin, ensure you have the following software installed:
-
-1. [Python version 3.12](https://www.python.org/)
-   - Workload: `Python`
-     
-2. Library: ultralytics, pandas, opencv-python, numpy, scipy, easyocr, filterpy
-
-3. Sort: The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort)
-
-4. In `sort/sort.py` , if bb_test or bb_gt is empty, return an empty array
-
-```python
-if bb_test.size == 0 or bb_gt.size == 0:
-    return np.zeros((bb_test.shape[0], bb_gt.shape[0]))
-```
-
-### Step-by-Step Installation Guide
-
-**Step 1.** Clone the Repository
-
-   First, clone the repository containing the application source code.
-
-   ```bash
-   git clone github.com/anhhducnguyen/Car-License-Plate-Recognition
-   ```
-
-**Step 2.** Install the necessary libraries in `requirements.txt`
-
-   ```
-   pip install -r requirements.txt
-   ```
-
-**Step 3.** Download Yolov8 model at [yolov8n]() and license plate recognition model at [license plate detector](), then move it to the `models` folder in the project
-
-**Step 4.** Download the video I used for testing at [sample video](), then transfer it to the project
-
-
-**Step 5.** Run program `main.py`
-
- ```bash
- python main.py 
- ```
-
-**Step 6.** Run program `add_missing_data.py`
-
- ```bash
- python add_missing_data.py 
- ```
-
-**Step 7.** Run program `visualize.py`
-
- ```bash
- python visualize.py 
- ```
 
 
 ## <div align="left">Contact</div>
